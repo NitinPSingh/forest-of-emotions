@@ -1,12 +1,58 @@
-# React + Vite
+# =====================================
+# 🌳 Forest of Emotions – Frontend Setup
+# =====================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# -------------------------------------
+# 📌 About the Project
+# -------------------------------------
+# Forest of Emotions is an emotional insight dashboard that visualizes 
+# email sentiments using a 3D forest metaphor. Each email is analyzed 
+# using AI and mapped to one of Plutchik's core emotions like joy, sadness, 
+# fear, anger, etc. The frontend is built with React and Three.js to display 
+# an immersive, interactive forest where trees represent emotional logs.
 
-Currently, two official plugins are available:
+# -------------------------------------
+# 🧾 Features
+# -------------------------------------
+# ✅ Email sentiment analysis visualization
+# ✅ 3D emotional forest with trees as logs
+# ✅ Daily summaries with predominant emotions
+# ✅ Toggle between light and dark modes
+# ✅ Interactive UI and animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# -------------------------------------
+# 🚀 How to Set Up (Frontend)
+# -------------------------------------
 
-## Expanding the ESLint configuration
+# 1. Clone the frontend repository
+git clone https://github.com/NitinPSingh/forest-of-emotions.git
+cd forest-of-emotions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Install dependencies
+npm install
+
+# 3. Create a `.env` file
+echo "VITE_API_URL=http://localhost:3001/api" > .env
+
+# ⚠️ Replace the URL if your backend is hosted elsewhere (e.g. Caddy, EC2, nip.io etc.)
+
+# 4. Run the development server
+npm run dev
+
+# -------------------------------------
+# 🔍 Access the App
+# -------------------------------------
+# Open your browser and go to:
+# → http://localhost:5173
+
+# -------------------------------------
+# 📁 Tech Stack
+# -------------------------------------
+# 🖼️ React (Vite)
+# 🌐 Axios
+# 🎨 TailwindCSS
+# 🎮 Three.js for 3D visual forest
+# 🧠 Lucide-react icons
+
+# -------------------------------------
+# ✅ You're all set to explore emotions in a new dimension!
